@@ -17,20 +17,64 @@ body{
     display:flex;
     max-width: 1200px;
    grid-template-columns: 1fr lfr;
-   gap: 30px;
+   gap: 20px;
    padding top: 40px; 
     margin: auto;
 }
 
 
 .sidebar{
+    padding: 40px;
     flex: 1;
     height:90vh;
     background-color: #2a2a2a;
+    border: 1px solid #3a3a3a;
+    border-radius:16px;
 }
 
 
 .main-content{
     height:90vh;
     background-color:#2a2a2a;
+    border: 1px solid #3a3a3a;
+    border-radius:16px;
+}
+
+.profile{
+    text-align: center;
+    
+}
+
+
+.profile img{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    border: 1px solid #3a3a3a;
+    
+}
+
+.profile h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 20px;
+    color: #e0e0e0;
+}
+.profile p{
+    background-color: #1e1e1e;
+    padding: 5px 15px;
+    color: #FFBF00;
+    border: 1px solid #3a3a3a;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* contact info section */
+.contact{
+    margin-top: 30px;
+    border-top: 2px solid #3a3a3a;
+    padding-top: 20px;
+    
 }
